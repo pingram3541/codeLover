@@ -1,0 +1,69 @@
+/* -------------------------------------------------------------------
+// markItUp!
+// By Jay Salvat - http://markitup.jaysalvat.com/
+// ------------------------------------------------------------------*/
+.codeLover .markItUpButton1 a {
+	background-image:url(images/h1.png);
+}
+.codeLover .markItUpButton2 a {
+	background-image:url(images/h2.png);
+}
+.codeLover .markItUpButton3 a {
+	background-image:url(images/h3.png);
+}
+.codeLover .markItUpButton4 a {
+	background-image:url(images/h4.png);
+}
+.codeLover .markItUpButton5 a {
+	background-image:url(images/h5.png);
+}
+.codeLover .markItUpButton6 a {
+	background-image:url(images/h6.png);
+}
+/*------------------------------------------------------------------*/
+.codeLover .markItUpButton7 a {
+	background-image:url(images/div.png);
+}
+.codeLover .markItUpButton8 a {
+	background-image:url(images/paragraph.png);
+}
+.codeLover .markItUpButton9 a {
+	background-image:url(images/js.png);
+}
+.codeLover .markItUpButton10 a {
+	background-image:url(images/php.png);
+}
+/*------------------------------------------------------------------*/
+.codeLover .markItUpButton11 a {
+	background-image:url(images/bold.png);
+}
+.codeLover .markItUpButton12 a {
+	background-image:url(images/italic.png);
+}
+.codeLover .markItUpButton13 a {
+	background-image:url(images/stroke.png);
+}
+/*------------------------------------------------------------------*/
+.codeLover .markItUpButton14 a {
+	background-image:url(images/list-bullet.png);
+}
+.codeLover .markItUpButton15 a {
+	background-image:url(images/list-numeric.png);
+}
+.codeLover .markItUpButton16 a {
+	background-image:url(images/list-item.png);
+}
+/*------------------------------------------------------------------*/
+.codeLover .markItUpButton17 a {
+	background-image:url(images/picture.png);
+}
+.codeLover .markItUpButton18 a {
+	background-image:url(images/link.png);
+}
+/*------------------------------------------------------------------*/
+.codeLover .markItUpButton19 a {
+	background-image:url(images/clean.png);
+}
+.codeLover .preview a {
+	background-image:url(images/preview.png);
+}
