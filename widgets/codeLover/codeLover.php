@@ -155,7 +155,7 @@ class codeLover extends WP_Widget {
         </p>
 
         <p>
-            <label for="<?php echo $this->get_field_id('previewUrl'); ?>"><?php _e('Scripts and Styles Preview Url (i.e. http://www.yoursite.com/ - url so preview renders properly)', 'codeLover'); ?>:</label>
+            <label for="<?php echo $this->get_field_id('previewUrl'); ?>"><?php _e('Scripts and Styles Preview Url (i.e. http://www.somesite.com/ - url so preview renders properly - defaults to base wp url)', 'codeLover'); ?>:</label>
             <input class="widefat" id="<?php echo $this->get_field_id('previewUrl'); ?>" name="<?php echo $this->get_field_name('previewUrl'); ?>" type="text" value="<?php echo $previewUrl;?>" />
         </p>
 

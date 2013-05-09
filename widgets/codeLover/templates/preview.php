@@ -4,11 +4,15 @@ require("$root/wp-load.php");
 $child_url = get_stylesheet_directory_uri();
 $child_dir = end((explode('/', $child_url)));
 include("$root/wp-content/themes/".$child_dir."/widgets/codeLover/php/geturl.php");
-if (isset($_SESSION['previewUrl'])) {
-    $previewurl=$_SESSION['previewUrl'];
+//check if style/script url is valid
+$urlregex = "^(https?|ftp)\:\/\/([a-z0-9+!*(),;?&=\$_.-]+(\:[a-z0-9+!*(),;?&=\$_.-]+)?@)?[a-z0-9+\$_-]+(\.[a-z0-9+\$_-]+)*(\:[0-9]{2,5})?(\/([a-z0-9+\$_-]\.?)+)*\/?(\?[a-z+&\$_.-][a-z0-9;:@/&%=+\$_.-]*)?(#[a-z_.-][a-z0-9+\$_.-]*)?\$";
+$previewurl=$_SESSION['previewUrl'];
+if (eregi($urlregex, $previewurl)) {
+	$previewurl=$_SESSION['previewUrl'];
 } else {
-	$previewurl=$root;
+	$previewurl="http://".$_SERVER["SERVER_NAME"];
 }
+
 $html = file_get_html($previewurl);
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
